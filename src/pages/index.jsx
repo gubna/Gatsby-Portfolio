@@ -76,12 +76,12 @@ const Index = () => (
             truly.
           </ProjectCard>
           <ProjectCard
-            title="Some Names and Bios"
-            link="https://stevenagriportfolio.com/SOME%20NAMES%20AND%20BIOS/index.html"
+            title="Joy Of Vacations"
+            link="https://www.joyofvacations.com/"
             bg=" background: rgb(2,0,36);
             background: linear-gradient(56deg, rgba(2,0,36,1) 0%, rgba(92,11,45,1) 35%, rgba(6,35,41,1) 100%) "
           >
-            Some names and bios of interesting people.
+            Travel Agency website made with Gatsby.js
           </ProjectCard>
           <ProjectCard
             title="Martins Pond"
