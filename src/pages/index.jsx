@@ -61,41 +61,37 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Steven Agri.
         </BigTitle>
-        <Subtitle>& this is my portfolio</Subtitle>
+        <Subtitle>& This is my portfolio</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
+            title="Joy Of Vacations"
+            link="https://www.joyofvacations.com/"
+            bg="#bf381a"
+          >
+            Travel Agency website made with Gatsby.js
+          </ProjectCard>
+          <ProjectCard
             title="Boston"
-            link="https://stevenagriportfolio.com/beantown/index.html"
-            bg=" background: rgb(2,0,36);
-            background: linear-gradient(56deg, rgba(2,0,36,1) 0%, rgba(92,11,45,1) 35%, rgba(6,35,41,1) 100%); "
+            link="src=../beantown.html"
+            bg="#38c172"
           >
             API calls to get current weather and traffic in Boston Massachusettes. Sports page with links made by yours
             truly.
           </ProjectCard>
           <ProjectCard
-            title="Joy Of Vacations"
-            link="https://www.joyofvacations.com/"
-            bg=" background: rgb(2,0,36);
-            background: linear-gradient(56deg, rgba(2,0,36,1) 0%, rgba(92,11,45,1) 35%, rgba(6,35,41,1) 100%) "
-          >
-            Travel Agency website made with Gatsby.js
-          </ProjectCard>
-          <ProjectCard
             title="Martins Pond"
             link="https://stevenagriportfolio.com/The%20Rock%20Cottage/index.html"
-            bg=" background: rgb(2,0,36);
-            background: linear-gradient(56deg, rgba(2,0,36,1) 0%, rgba(92,11,45,1) 35%, rgba(6,35,41,1) 100%)"
+            bg="#ad5b78"
           >
             The lake I live on.
           </ProjectCard>
           <ProjectCard
             title="Bill Hicks"
             link="https://stevenagriportfolio.com/Bill%20Hicks/index.html"
-            bg=" background: rgb(2,0,36);
-            background: linear-gradient(56deg, rgba(2,0,36,1) 0%, rgba(92,11,45,1) 35%, rgba(6,35,41,1) 100%)"
+            bg="#bf381a"
           >
             A tribute to comedian and social critic Bill Hicks.
           </ProjectCard>
@@ -112,8 +108,7 @@ const Index = () => (
         <AboutDesc>
           I have expience with frontend work using HTML, CSS, and JavaScript. I have expiernce creating responsive web
           pages using frameworks and libraries such as Bootstrap and React. I also have expiernce with backend work
-          using Node.js and stacks like the LAMP stack I deployed on a digital ocean server. It can be found here
-          https://stevenagriportfolio.com/
+          using Node.js, Express , and GraphQL with stacks like the LAMP stack I deployed on a digital ocean server.
         </AboutDesc>
       </About>
       <Contact offset={4}>
