@@ -73,28 +73,15 @@ const Index = () => (
           >
             Travel Agency website made with Gatsby.js
           </ProjectCard>
-          <ProjectCard
-            title="Boston"
-            link="src=../beantown.html"
-            bg="#38c172"
-          >
-            API calls to get current weather and traffic in Boston Massachusettes. Sports page with links made by yours
-            truly.
-          </ProjectCard>
+          
           <ProjectCard
             title="Martins Pond"
-            link="https://stevenagriportfolio.com/The%20Rock%20Cottage/index.html"
+            link="https://nostalgic-lovelace-eb19fb.netlify.com"
             bg="#ad5b78"
           >
             The lake I live on.
-          </ProjectCard>
-          <ProjectCard
-            title="Bill Hicks"
-            link="https://stevenagriportfolio.com/Bill%20Hicks/index.html"
-            bg="#bf381a"
-          >
-            A tribute to comedian and social critic Bill Hicks.
-          </ProjectCard>
+            </ProjectCard>
+
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
